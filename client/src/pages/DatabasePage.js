@@ -1,10 +1,14 @@
-
+import Table from "../components/Table/table";
 
 function DatabasePage(){
 
     return (
-    
-        <h2>This is my Databse Page</h2>
+        <div>
+            <h2>This is my Databse Page</h2>
+            <Table />
+        </div>
+        
+
         
     
     );
